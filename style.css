@@ -1,3 +1,12 @@
+:root {
+  --clr-blue-300: 215 51% 70%;
+  --clr-blue-700: 215 32% 27%;
+  --clr-blue-800: 216 50% 16%;
+  --clr-blue-900: 217 54% 11%;
+  --clr-cyan-400: 178 100% 50%;
+  --clr-white: 0 0% 100%;
+}
+
 /* RESET */
 
 /* https://andy-bell.co.uk/a-modern-css-reset */
@@ -23,6 +32,9 @@ picture {
 body {
   min-height: 100vh;
   line-height: 1.5;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.125rem;
+  background-color: var(--clr-blue-900);
 }
 
 img,
