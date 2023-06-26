@@ -161,10 +161,13 @@ hr {
 .nft-card__offer {
   margin-block: 1em;
   justify-content: space-between;
+  gap: 1em;
 }
 
 .nft-card__offer > * {
   gap: 0.375em;
+  flex-flow: wrap;
+  text-align: center;
 }
 
 .nft-card__creator {
