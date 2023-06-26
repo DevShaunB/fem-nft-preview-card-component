@@ -1,28 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
 
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-</body>
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body class="flex flex-center bg-blue-900">
+    <main>
+      <div class="nft-card bg-blue-800 text-blue-300">
+        <div class="nft-card__img-wrapper">
+          <img
+            src="./images/image-equilibrium.jpg"
+            alt="Equilibrium blue cube reflecting red light"
+            class="nft-card__img"
+          />
+        </div>
+        <div class="nft-card__text font-light">
+          <h2 class="nft-card__title font-semi-bold text-white">
+            <a href="#">Equilibrium #3429</a>
+          </h2>
+          <p class="nft-card__desc">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="nft-card__offer flex">
+            <p
+              class="nft-card__price flex flex-center font-semi-bold text-cyan-400"
+            >
+              <img src="./images/icon-ethereum.svg" alt="" /><span
+                >0.041 ETH</span
+              >
+            </p>
+            <p class="nft-card__expiry flex flex-center font-regular">
+              <img src="./images/icon-clock.svg" alt="" /><span
+                >3 days left</span
+              >
+            </p>
+          </div>
+          <hr class="bg-blue-700" />
+          <div class="nft-card__creator flex">
+            <div class="nft-card__creator-img-wrapper">
+              <img
+                src="./images/image-avatar.png"
+                alt="Jules Wyvern Avatar image"
+                class="nft-card__creator-img"
+              />
+            </div>
+            <p class="nft-card__creator-info">
+              Creation of
+              <a href="#" class="nft-card__creator-name font-regular text-white"
+                >Jules Wyvern</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
