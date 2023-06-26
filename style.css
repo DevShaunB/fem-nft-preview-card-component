@@ -126,14 +126,14 @@ hr {
   position: relative;
 }
 
-.nft-card__img-wrapper-link:hover::before {
+.nft-card__img-wrapper-link:where(:hover, :focus-visible)::before {
   content: '';
   background-color: hsl(var(--clr-cyan-400) / 0.5);
   position: absolute;
   inset: 0;
 }
 
-.nft-card__img-wrapper-link:hover::after {
+.nft-card__img-wrapper-link:where(:hover, :focus-visible)::after {
   content: url('./images/icon-view.svg');
   position: absolute;
   top: 50%;
@@ -150,7 +150,7 @@ hr {
   cursor: pointer;
 }
 
-.nft-card__title:hover {
+.nft-card__title:where(:hover, :focus-within) {
   color: hsl(var(--clr-cyan-400));
 }
 
@@ -187,7 +187,7 @@ hr {
   cursor: pointer;
 }
 
-.nft-card__creator-name:hover {
+.nft-card__creator-name:where(:hover, :focus-visible) {
   color: hsl(var(--clr-cyan-400));
 }
 
