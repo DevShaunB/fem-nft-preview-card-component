@@ -119,21 +119,21 @@ hr {
   box-shadow: 0 1.75em 0.25em 1em hsl(0 0% 0% / 0.1);
 }
 
-.nft-card__img-wrapper {
+.nft-card__img-wrapper-link {
+  display: block;
   border-radius: 0.5em;
   overflow: hidden;
   position: relative;
-  cursor: pointer;
 }
 
-.nft-card__img-wrapper:hover::before {
+.nft-card__img-wrapper-link:hover::before {
   content: '';
   background-color: hsl(var(--clr-cyan-400) / 0.5);
   position: absolute;
   inset: 0;
 }
 
-.nft-card__img-wrapper:hover::after {
+.nft-card__img-wrapper-link:hover::after {
   content: url('./images/icon-view.svg');
   position: absolute;
   top: 50%;
