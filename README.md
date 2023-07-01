@@ -37,6 +37,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-using-flexbox-and-utility-classes-KY5_EYEKIk](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-flexbox-and-utility-classes-KY5_EYEKIk)
 - Live Site URL: [https://devshaunb.github.io/fem-nft-preview-card-component/](https://devshaunb.github.io/fem-nft-preview-card-component/)
 
 ## Reference
